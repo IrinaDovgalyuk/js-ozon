@@ -99,5 +99,5 @@ function getEmployeeByYear( arr, year) {
   console.log(arr.filter( newEmployeeArr => newEmployeeArr.yearStarted >= year));
 }
 
-getEmployeeByYear( myGreatStaffArray, 2007)
+getEmployeeByYear( myGreatStaffArray, 2007);
 //хочу вывести всех сотрудников кто пришел позже 2007 года
